@@ -140,7 +140,7 @@ img {
     margin-top: 5px;
 }
 
-h3 {
+ h3 {
     text-transform: uppercase;
     display: inline;
     font-size: 0.8em;
@@ -198,6 +198,29 @@ h2 {
     background: #294c71;
     color: #fff;
     padding: 5px;
+}
+
+/* #region formataçao lista de noticia*/
+
+#lista-noticia li {
+    padding: 2px;
+    border: 1px solid #ccc;
+    height: 75px;
+}
+
+#lista-noticia li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticia li a {
+    text-decoration: none;
+}
+
+#lista-noticia li a h3 {
+    background: #ffffff;
+    color: #4521e9;
+    
 }
 
 /*formataçao do conteudo rodape*/
