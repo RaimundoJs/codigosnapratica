@@ -1,0 +1,60 @@
+body {
+    background: #f2f4ec url(../img/fundo.png) repeat-x;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* #region formaçao logo*/
+
+#logo a {
+    width: 248px;
+    height: 21px;
+    margin-top: 30px;
+    text-indent: -9999px;
+    display: block;
+    background: url(../img/logo.png) no-repeat;
+}
+
+/* #region header inicio*/
+
+header {
+    padding: 15px 0;
+    height: 55px;
+}
+
+/* #region formataçao ul*/
+
+header nav ul {
+    list-style: none;
+    margin: 20px;
+    float: right;
+}
+/* #region formataçao li*/
+nav ul li{
+    float: left;
+}
+/* #region formataçao links*/
+a:link, a:visited, a:active{
+    color: #bd6e07;
+    text-decoration: none;
+}
+a:hover{
+    color: #227115;
+}
+
+/* #region cores especificas do menu*/
+nav ul li a:link{
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #535858;
+}
